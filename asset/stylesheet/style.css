@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Space Mono";
+    src: url("../font/SpaceMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Space Mono";
+    src: url("../font/SpaceMono-Bold.ttf");
+    font-weight: bold;
+}
+
+#header {
+    font-family: "Space Mono";
+    font-weight: bold;
+    font-size: 64px;
+
+    text-align: center;
+}
