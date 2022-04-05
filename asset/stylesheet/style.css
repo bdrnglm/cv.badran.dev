@@ -9,9 +9,7 @@
     font-weight: bold;
 }
 
-a {
-    all: unset;
-}
+a { all: unset; }
 
 body {
     height: 100vh;
@@ -19,32 +17,19 @@ body {
 }
 
 #header {
+    text-align: center;
     font-weight: bold;
     font-size: 4rem;
-
-    text-align: center;
 }
 
 #figures {
+    justify-content: center;
+    font-size: 1.25rem;
     margin-top: 15rem;
     display: flex;
-    justify-content: center;
     gap: 6em;
-    font-size: 1.25rem;
-
-    /* padding: 10rem 20rem; */
-    /* flex-direction: column; */
-    /* align-items: center; */
 }
 
-#figures figure {
-    /* margin: auto; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    text-align: center;
-}
+#figures figure { text-align: center; }
 
-#skill {
-    font-size: 0.94rem;
-}
+#skill { font-size: 1rem; }
